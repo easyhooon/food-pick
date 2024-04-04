@@ -1,4 +1,4 @@
-# food_pick
+# food-pick
 
 맛집 정보 공유 앱
 
