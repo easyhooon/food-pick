@@ -2,15 +2,16 @@
 
 맛집 정보 공유 앱
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## TODO
+- [ ] 로그인 화면 에러 스낵바로 출력되지 않는 문제
+- [ ] dart 파일마다 반복되는 함수들 따로 빼내기
+- [ ] 에러 상황 발생시 에러를 좀 더 자세히 파악할 수 있도록 -> 현재는 성공 실패 여부만 알 수 있음
+- [ ] 민감 정보 감추기(API 키, ApiUrl)
+- [ ] riverpod 으로 리팩토링
+- [ ] 하드 코딩된 문자열 리소스로 추출
+- [ ] 자동 로그인 구현
+- [ ] lint 추가
+- [ ] supabase 에 데이터를 저장 실패시, 실패관련 로그가 출력되도록(이유 파악을 위함)
+- [ ] 사진 촬영시에도 권한 요청 플로우 추가
+- [ ] iOS 에뮬레이터에서도 잘 동작하는지 확인
+- [ ] supabase 객체 싱글톤으로 관리(강의 참고)
